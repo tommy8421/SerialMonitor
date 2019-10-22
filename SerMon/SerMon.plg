@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SerMon - Win32 fre--------------------
+</h3>
+
+
+D:\shengjx\SVNWork\Other\PDA\SerMon>ddkbuild.cmd -W7XP fre . -cZ -WDF 
+OSR DDKBUILD.CMD V7.4/r60 (2009-11-28) - OSR, Open Systems Resources, Inc.
+
+Starting dirs creation...Completed.
+DDKBLD: W7XP (free) using the Windows 7/Windows 2008 Server R2 DDK and %W7BASE%
+DDKBLD: Directory: D:\shengjx\SVNWork\Other\PDA\SerMon + argument(s): -cZ -WDF
+DDKBLD: W7BASE: C:\WinDDK\760016~1.1
+DDKBLD: Run build -MI -Ze -cZ for free version in .
+BUILD: Compile and Link for x86
+BUILD: Start time: Fri Oct 18 09:38:49 2019
+BUILD: Examining d:\shengjx\svnwork\other\pda\sermon directory for files to compile.
+    d:\shengjx\svnwork\other\pda\sermon 
+BUILD: Compiling and Linking d:\shengjx\svnwork\other\pda\sermon directory
+_NT_TARGET_VERSION SET TO WINXP
+Compiling resources - sermon.rc
+Compiling - sermon.cpp
+Compiling - devext.cpp
+Compiling - drvclass.cpp
+Compiling - generating code...
+Linking Executable - objfre_wxp_x86\i386\pdaaux.sys
+BUILD: Finish time: Fri Oct 18 09:38:50 2019
+BUILD: Done
+
+    6 files compiled
+    1 executable built
+
+DDKBLD: Build complete
+DDKBLD: Building browse information files
+
+
+
+<h3>Results</h3>
+PdaAux.sys - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: SerMon - Win64 fre--------------------
+</h3>
+
+
+D:\shengjx\SVNWork\Other\PDA\SerMon>ddkbuild.cmd -W7X64 fre . -cZ -WDF 
+OSR DDKBUILD.CMD V7.4/r60 (2009-11-28) - OSR, Open Systems Resources, Inc.
+
+Starting dirs creation...Completed.
+DDKBLD: W7X64 (free) using the Windows 7/Windows 2008 Server R2 DDK and %W7BASE%
+DDKBLD: Directory: D:\shengjx\SVNWork\Other\PDA\SerMon + argument(s): -cZ -WDF
+DDKBLD: W7BASE: C:\WinDDK\760016~1.1
+DDKBLD: Run build -MI -Ze -cZ for free version in .
+BUILD: Compile and Link for AMD64
+BUILD: Start time: Fri Oct 18 09:38:51 2019
+BUILD: Examining d:\shengjx\svnwork\other\pda\sermon directory for files to compile.
+    d:\shengjx\svnwork\other\pda\sermon 
+BUILD: Compiling and Linking d:\shengjx\svnwork\other\pda\sermon directory
+Compiling resources - sermon.rc
+Compiling - sermon.cpp
+Compiling - devext.cpp
+Compiling - drvclass.cpp
+Linking Executable - objfre_win7_amd64\amd64\pdaaux.sys
+BUILD: Finish time: Fri Oct 18 09:38:52 2019
+BUILD: Done
+
+    6 files compiled
+    1 executable built
+
+DDKBLD: Build complete
+DDKBLD: Building browse information files
+
+
+
+<h3>Results</h3>
+PdaAux64.sys - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

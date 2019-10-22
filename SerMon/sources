@@ -1,0 +1,8 @@
+TARGETNAME=PdaAux
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+INCLUDES=.\
+
+SOURCES=SerMon.cpp DevExt.cpp DrvClass.cpp SerMon.rc
+
